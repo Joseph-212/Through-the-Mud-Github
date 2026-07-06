@@ -279,7 +279,7 @@ Rigidbody:
   m_GameObject: {fileID: 781179260}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 5
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8abd4f463920a1d7e8f2d3074cca1ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Look
-  mouseSensitivity: 50
+  mouseSensitivity: 10
   cam: {fileID: 1716072789}
 --- !u!1 &1600846339
 GameObject:
